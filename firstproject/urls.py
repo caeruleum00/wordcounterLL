@@ -19,7 +19,7 @@ import wordcounter.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', wordcounter.views.home, name="index"),
+    path('', wordcounter.views.index, name="index"),
     path('about/', wordcounter.views.about, name="about"),
     path('count/', wordcounter.views.count, name="count"),
 ]
